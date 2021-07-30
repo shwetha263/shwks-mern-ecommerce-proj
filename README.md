@@ -18,4 +18,8 @@ for styling use bootswatch
 DB
 - mongoosejs.com
 
+Paypal
+-https://developer.paypal.com/developer/applications
+https://developer.paypal.com/docs/checkout/reference/customize-sdk/
+
 
