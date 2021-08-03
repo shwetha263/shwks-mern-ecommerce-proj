@@ -8,12 +8,13 @@ import {
   deleteProduct,
   getProductById,
   getProducts,
+  getTopProducts,
   updateProduct,
 } from '../controllers/productController.js'
 
 router.route('/').get(getProducts).post(protect, admin, createProduct)
 router.route('/:id/reviews').post(protect, createReview)
-
+router.route('/top').get(getTopProducts)
 router
   .route('/:id')
   .get(getProductById)
