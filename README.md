@@ -38,6 +38,7 @@ deployment
 ```sh
  heroku login
  heroku create shwks-mern-app
-
+ heroku git:remote -a shwks-mern-app
+ git push heroku master
 ```
 - create Procfile
