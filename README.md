@@ -24,3 +24,20 @@ https://developer.paypal.com/docs/checkout/reference/customize-sdk/
 
 
 https://www.npmjs.com/package/react-helmet
+
+
+deployment 
+- 
+```sh
+  cd frontend 
+  npm run build 
+  cd .. 
+  npm start
+```
+- install heroku cli - brew tap heroku/brew && brew install heroku
+```sh
+ heroku login
+ heroku create shwks-mern-app
+
+```
+- create Procfile
